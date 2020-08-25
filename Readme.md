@@ -4,7 +4,7 @@ Generated with [Eleventy static site generator](https://11ty.dev):
 
 Example: 
 ```
-cd app
+cd web
 npm install
 npx @11ty/eleventy --output ~/www
 ```
