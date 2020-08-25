@@ -1,0 +1,7 @@
+<h2><%= imds.compute.name %></h2>
+<p>Name: <%= imds.compute.name %></p>
+<p>Private IP Address: <%= imds.network.interface[0].ipv4.ipAddress[0].privateIpAddress %></p>
+<p>Resource id: <%= imds.compute.resourceId %></p>
+<p>Scale set name: <%= imds.compute.vmScaleSetName %></p></p>
+
+<p><pre><%=  JSON.stringify(imds, null, 2) %></pre></p>
