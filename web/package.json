@@ -1,13 +1,20 @@
 {
   "name": "azure-imds",
   "version": "1.0.0",
-  "description": "",
+  "description": "Static site that exposes Azure VM Metadata",
+  "homepage": "https://github.com/fitzgeraldsteele/azure-imds",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fitzgeraldsteele/azure-imds"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Jerry Steele"
+  },
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
